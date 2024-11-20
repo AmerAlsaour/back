@@ -31,7 +31,7 @@ app.use((error, req, res, next) => {
 const port =3000 || process.env.PORT;
 mongoose
   .connect(
-    "mongodb://localhost:27017/learningapp"
+    "mongodb+srv://ameralsaoor1:amer44741887@learningapp.70urq.mongodb.net/?retryWrites=true&w=majority&appName=learningapp"
   )
   .then((a) => {
     app.listen(port,()=>{
